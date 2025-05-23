@@ -1,0 +1,53 @@
+.boutique-header {
+  background-color: #222;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.boutique-main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.boutique-product {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  flex: 1 0 200px;
+}
+
+.boutique-product img {
+  max-width: 100%;
+  height: auto;
+}
+
+.boutique-cart {
+  position: fixed;
+  top: 70px;
+  right: 10px;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  width: 250px;
+  display: none;
+  z-index: 9999;
+}
+
+.boutique-cart ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.boutique-remove {
+  margin-left: 10px;
+  color: red;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
